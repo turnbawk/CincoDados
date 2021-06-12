@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cinco Dados</string>
+    <string name="roll">Roll (%d of 3)</string>
+    <string name="outOfRolls">Out of Rolls</string>
+    <string name="ones">Ones (%d)</string>
+    <string name="twos">Twos (%d)</string>
+    <string name="threes">Threes (%d)</string>
+    <string name="fours">Fours (%d)</string>
+    <string name="fives">Fives (%d)</string>
+    <string name="sixes">Sixes (%d)</string>
+    <string name="utotal">U. Total (%d)</string>
+    <string name="upperdeltaNeg">U. Delta (%d)</string>
+    <string name="upperdeltaPos">U. Delta (+%d)</string>
+    <string name="upperbonus">U. Bonus (%d)</string>
+    <string name="_3_of_a_kind">3 of a Kind (%d)</string>
+    <string name="_4_of_a_kind">4 of a Kind (%d)</string>
+    <string name="ding_dong">Ding Dong (%d)</string>
+    <string name="sm_straight">Sm. Straight (%d)</string>
+    <string name="lg_straight">Lg. Straight (%d)</string>
+    <string name="cinco_dados">Cinco Dados (%d)</string>
+    <string name="chance">Chance (%d)</string>
+    <string name="cinco_bonus">Cinco Dados Bonus (%d)</string>
+    <string name="ltotal">L. Total (%d)</string>
+    <string name="grand_total">Grand Total (%d)</string>
+    <string name="first_die">First Die</string>
+    <string name="second_die">Second Die</string>
+    <string name="third_die">Third Die</string>
+    <string name="fourth_die">Fourth Die</string>
+    <string name="fifth_die">Fifth Die</string>
+    <string name="confirm">Confirm Scoring</string>
+    <string name="mustroll">Click to Roll Dice</string>
+    <string name="gameover">Game Over, click to Restart</string>
+</resources>

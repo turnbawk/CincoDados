@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/d1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/d2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roll1" />
+
+    <ImageView
+        android:id="@+id/d2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/d1"
+        app:layout_constraintRight_toLeftOf="@+id/d3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roll1" />
+
+    <ImageView
+        android:id="@+id/d3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/d2"
+        app:layout_constraintRight_toLeftOf="@+id/d4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roll1" />
+
+    <ImageView
+        android:id="@+id/d4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/d3"
+        app:layout_constraintRight_toLeftOf="@+id/d5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roll1" />
+
+    <ImageView
+        android:id="@+id/d5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toRightOf="@+id/d4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/roll1" />
+
+    <TextView
+        android:id="@+id/tOnes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tTwos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/d1" />
+
+    <TextView
+        android:id="@+id/tTwos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tThrees"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tOnes" />
+
+    <TextView
+        android:id="@+id/tThrees"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tFours"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tTwos" />
+
+    <TextView
+        android:id="@+id/tFours"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tFives"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tThrees" />
+
+    <TextView
+        android:id="@+id/tFives"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tSixes"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tFours" />
+
+    <TextView
+        android:id="@+id/tSixes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tUpperDelta"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tFives" />
+
+    <TextView
+        android:id="@+id/tUpperDelta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tUpperTotal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tChance" />
+
+    <TextView
+        android:id="@+id/tUpperTotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/tUpperBonus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tUpperDelta" />
+
+    <TextView
+        android:id="@+id/tUpperBonus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/bRoll"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guidelineCenter"
+        app:layout_constraintTop_toBottomOf="@id/tUpperTotal" />
+
+
+    <TextView
+        android:id="@+id/t3k"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/t4k"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/d1" />
+
+    <TextView
+        android:id="@+id/t4k"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tDD"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/t3k" />
+
+    <TextView
+        android:id="@+id/tDD"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tSmallS"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/t4k" />
+
+    <TextView
+        android:id="@+id/tSmallS"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tLargeS"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tDD" />
+
+    <TextView
+        android:id="@+id/tLargeS"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tCinco"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tSmallS" />
+
+    <TextView
+        android:id="@+id/tCinco"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tChance"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tLargeS" />
+
+    <TextView
+        android:id="@+id/tChance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/tLowerTotal"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tCinco" />
+
+    <TextView
+        android:id="@+id/tLowerTotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/tCincoBonus"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tChance" />
+
+    <TextView
+        android:id="@+id/tCincoBonus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/tGrandTotal"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tLowerTotal" />
+
+    <TextView
+        android:id="@+id/tGrandTotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/bRoll"
+        app:layout_constraintLeft_toRightOf="@+id/guidelineCenter"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tCincoBonus" />
+
+
+    <Button
+        android:id="@+id/bRoll"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:onClick="rollButtonClicked"
+        android:text="@string/roll"
+        app:layout_constraintTop_toBottomOf="@id/tGrandTotal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
